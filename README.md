@@ -1,15 +1,11 @@
-<div align="center">
-
-# 🎯 xSwarm Marketing
-
-### Guerilla Marketing Team
-
-```bash
-cd project/promotion/
-npx xswarm-marketing
-```
-
-</div>
+<p align="center">
+  <br/>
+  <h1>🎯 xSwarm Marketing</h1>
+  <h3>Guerilla Marketing Team</h3>
+  <br/>
+  <code>cd project/promotion/ && npx xswarm-marketing</code>
+  <br/><br/>
+</p>
 
 # Ditch the Marketing Team. You ARE the Marketing Team.
 
