@@ -2,7 +2,7 @@
  * Human Mode - Conversational Interface
  *
  * Natural language interaction with Claude.
- * Default mode when running `xswarm-marketing`.
+ * Default mode when running `xswarm-buzz`.
  */
 
 import chalk from 'chalk';

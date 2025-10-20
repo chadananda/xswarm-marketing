@@ -1,11 +1,11 @@
 <div align="center">
 
-<img src="planning/ascii-art-text.png" alt="xSwarm Marketing" width="600">
+<img src="planning/ascii-art-buzz.png" alt="xSwarm Buzz" width="600">
 
 ### Guerilla Marketing Team
 
 ```bash
-cd project/promotion/ && npx xswarm-marketing
+cd project/promotion/ && npx xswarm-buzz
 ```
 
 </div>
@@ -27,7 +27,7 @@ You're a developer. You built something awesome. Now you need to market it.
 **Your options:**
 1. **Hire a marketing team** → $$$$$, meetings about meetings, "let's circle back on this synergy"
 2. **Do it yourself manually** → 4 hours/day on social media, soul-crushing repetition, spreadsheet hell
-3. **Use xswarm-marketing** → AI agents do the grinding, you stay in flow, 20 min/week
+3. **Use xswarm-buzz** → AI agents do the grinding, you stay in flow, 20 min/week
 
 You know which one makes sense.
 
@@ -41,7 +41,7 @@ Think "Army of One" but for developers. Maximum capability, minimum headcount.
 
 - 🎯 **xSwarm** (`npx xswarm`) → Your AI planning & coding team
 - 🎙️ **xSwarm-Boss** (Rust, voice-first) → Your AI personal assistant managing everything
-- 📣 **xswarm-marketing** (`npx xswarm-marketing`) → Your AI marketing department ← YOU ARE HERE
+- 📣 **xswarm-buzz** (`npx xswarm-buzz`) → Your AI marketing department ← YOU ARE HERE
 
 **One developer = One complete company.** That's the vision.
 
@@ -52,7 +52,7 @@ Think "Army of One" but for developers. Maximum capability, minimum headcount.
 No dashboards. No forms. No "configure your settings". Just talk to AI like you'd talk to your marketing manager.
 
 ```bash
-$ npx xswarm-marketing
+$ npx xswarm-buzz
 
 > "What should I do today?"
 
@@ -182,7 +182,7 @@ Your marketing just got smarter while you were coding.
 
 ### Time Effectiveness
 
-| Task | You Manually | xswarm-marketing | Savings |
+| Task | You Manually | xswarm-buzz | Savings |
 |------|-------------|------------------|---------|
 | Daily outreach (15 msgs) | 2 hours | 4 minutes | 1h 56m |
 | Multi-platform posting | 1 hour | 2 minutes | 58m |
@@ -202,7 +202,7 @@ Your marketing just got smarter while you were coding.
 - Copy-pasting between platforms
 - Forgetting to follow up
 
-**xswarm-marketing:**
+**xswarm-buzz:**
 - AI tracks everything with perfect memory
 - Coordinates timing across all platforms
 - Never duplicates outreach
@@ -224,7 +224,7 @@ Best regards,
 ```
 *Everyone knows. Nobody responds. 8% acceptance rate.*
 
-**xswarm-marketing approach:**
+**xswarm-buzz approach:**
 ```
 > Generate message for prospect ID 47
 
@@ -261,7 +261,7 @@ This message:
 
 **Critical: AI suggests. You approve. Always.**
 
-xswarm-marketing is NOT an autonomous spam bot. It's your AI assistant that drafts messages for you.
+xswarm-buzz is NOT an autonomous spam bot. It's your AI assistant that drafts messages for you.
 
 **The workflow:**
 1. AI generates personalized message suggestions
@@ -283,7 +283,7 @@ Think of it like: AI is your copywriting intern. You're still the marketing dire
 - No pattern recognition
 - Starting from scratch each time
 
-**xswarm-marketing:**
+**xswarm-buzz:**
 - Tracks every interaction automatically
 - Identifies winning patterns ("compliance" keyword = 2.1x response)
 - A/B tests messaging approaches
@@ -298,7 +298,7 @@ Think of it like: AI is your copywriting intern. You're still the marketing dire
 
 Most marketing tools are dumb. They don't know your product, your market, your voice. They're glorified schedulers.
 
-xswarm-marketing reads context from your project folder before doing anything.
+xswarm-buzz reads context from your project folder before doing anything.
 
 ```
 Your Project/promotion/
@@ -344,7 +344,7 @@ You're a developer. You care how this works.
 - **Gemini Pro** / **Flash** (Google's models)
 - **Local models** (Llama 3.2, Phi, etc. for privacy/cost)
 
-xswarm-marketing picks the cheapest sufficient model for each task.
+xswarm-buzz picks the cheapest sufficient model for each task.
 
 ### Cost Optimization: Subagent Orchestration
 
@@ -455,13 +455,13 @@ Two modes:
 
 **Human mode** (default): Natural conversation
 ```bash
-npx xswarm-marketing
+npx xswarm-buzz
 > "What should I do today?"
 ```
 
 **Machine mode** (for automation):
 ```bash
-npx xswarm-marketing --json
+npx xswarm-buzz --json
 ```
 
 JSONL protocol for external orchestration (e.g., xSwarm-Boss controlling this).
@@ -475,7 +475,7 @@ Message types: `command`, `approval`, `status`, `progress`, `result`, `log`, `er
 {"type": "result", "data": {"leads": 3, "acceptance_rate": 0.87}}
 ```
 
-This lets other tools (like xSwarm-Boss) control xswarm-marketing programmatically.
+This lets other tools (like xSwarm-Boss) control xswarm-buzz programmatically.
 
 ---
 
@@ -484,12 +484,12 @@ This lets other tools (like xSwarm-Boss) control xswarm-marketing programmatical
 ### Install
 
 ```bash
-npm install -g xswarm-marketing
+npm install -g xswarm-buzz
 ```
 
 Or use without installing:
 ```bash
-npx xswarm-marketing
+npx xswarm-buzz
 ```
 
 ### First Time Setup (30 minutes target)
@@ -497,7 +497,7 @@ npx xswarm-marketing
 ```bash
 cd your-project
 mkdir promotion && cd promotion
-npx xswarm-marketing init
+npx xswarm-buzz init
 ```
 
 Interactive setup walks you through:
@@ -509,7 +509,7 @@ Interactive setup walks you through:
 ### Start Marketing
 
 ```bash
-npx xswarm-marketing
+npx xswarm-buzz
 ```
 
 That's it. Start talking:
@@ -562,12 +562,12 @@ That's it. Start talking:
 
 ## Contributing: Build Skills, Grow the Army
 
-xswarm-marketing is powered by community-built **Skills**.
+xswarm-buzz is powered by community-built **Skills**.
 
 ### Create a Skill
 
 ```bash
-npx xswarm-marketing
+npx xswarm-buzz
 > "Create a new skill called 'reddit-engagement'"
 ```
 
@@ -604,7 +604,7 @@ Detailed instructions for Claude on how to use this skill...
 > "Use my new skill to [test scenario]"
 
 # Contribute to community
-git clone https://github.com/chadananda/xswarm-marketing
+git clone https://github.com/chadananda/xswarm-buzz
 # Add your skill to skills/community/
 # Submit PR
 ```
@@ -680,10 +680,10 @@ Invite developer-marketers to test:
 🎙️ **[xSwarm-Boss](https://xswarm.ai)** (Rust, voice-first)
 - Personal assistant managing your projects, tasks, machines
 - Calendar orchestration
-- Talks to all your tools (including xswarm-marketing)
+- Talks to all your tools (including xswarm-buzz)
 - Voice interface for hands-free control
 
-📣 **xswarm-marketing** (`npx xswarm-marketing`) ← YOU ARE HERE
+📣 **xswarm-buzz** (`npx xswarm-buzz`) ← YOU ARE HERE
 - AI marketing department
 - Guerilla marketing automation
 - Context-driven, conversational
@@ -702,7 +702,7 @@ Invite developer-marketers to test:
 
 🌐 **Website:** [xswarm.ai](https://xswarm.ai)
 💬 **Discord:** [Join the community](https://discord.gg/xswarm) (coming soon)
-🐙 **GitHub:** [github.com/chadananda/xswarm-marketing](https://github.com/chadananda/xswarm-marketing)
+🐙 **GitHub:** [github.com/chadananda/xswarm-buzz](https://github.com/chadananda/xswarm-buzz)
 
 ---
 
@@ -734,7 +734,7 @@ If you're non-technical, there are simpler tools. This is for people who want po
 
 Those are schedulers. You still do the creative work, strategy, personalization manually.
 
-xswarm-marketing:
+xswarm-buzz:
 - **Generates** messages (AI, not templates)
 - **Plans** strategy (researches market, builds campaigns)
 - **Learns** patterns (A/B tests, optimizes automatically)
@@ -840,7 +840,7 @@ MIT License - Do whatever you want with this.
 Stop reading. Start marketing.
 
 ```bash
-npx xswarm-marketing init
+npx xswarm-buzz init
 ```
 
 You're one developer. You're about to become an entire marketing department.
@@ -855,4 +855,4 @@ Welcome to xSwarm.
 
 **Maintained by:** [@chadananda](https://github.com/chadananda) and the xSwarm community
 
-**Join us:** [xswarm.ai](https://xswarm.ai) | [GitHub](https://github.com/chadananda/xswarm-marketing) | [Discord](https://discord.gg/xswarm) (coming soon)
+**Join us:** [xswarm.ai](https://xswarm.ai) | [GitHub](https://github.com/chadananda/xswarm-buzz) | [Discord](https://discord.gg/xswarm) (coming soon)

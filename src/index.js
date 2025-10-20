@@ -1,5 +1,5 @@
 /**
- * xswarm-marketing
+ * xswarm-buzz
  *
  * AI-powered guerilla marketing automation.
  * Conversational interface, context-driven, multi-model orchestration.

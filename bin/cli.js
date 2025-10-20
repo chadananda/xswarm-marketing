@@ -1,15 +1,15 @@
 #!/usr/bin/env node
 
 /**
- * xswarm-marketing CLI Entry Point
+ * xswarm-buzz CLI Entry Point
  *
  * Guerilla marketing automation via conversational AI.
  * Part of the xSwarm family: https://xswarm.ai
  *
  * Usage:
- *   xswarm-marketing              # Human mode (conversational)
- *   xswarm-marketing --json       # Machine mode (JSONL protocol)
- *   xswarm-marketing init         # First-time setup
+ *   xswarm-buzz              # Human mode (conversational)
+ *   xswarm-buzz --json       # Machine mode (JSONL protocol)
+ *   xswarm-buzz init         # First-time setup
  */
 
 import { program } from 'commander';
@@ -29,7 +29,7 @@ ${chalk.cyan('Team of One • AI Marketing • xSwarm Family')}
 
 // CLI Configuration
 program
-  .name('xswarm-marketing')
+  .name('xswarm-buzz')
   .description('AI-powered guerilla marketing automation for technical founders')
   .version(getVersion())
   .option('-j, --json', 'Machine mode: JSONL protocol for external orchestration')
@@ -38,7 +38,7 @@ program
 // Init Command
 program
   .command('init')
-  .description('Initialize xswarm-marketing in current directory (first-time setup)')
+  .description('Initialize xswarm-buzz in current directory (first-time setup)')
   .action(async () => {
     console.log(banner);
     await runInit();

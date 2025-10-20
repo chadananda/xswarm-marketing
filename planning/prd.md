@@ -1,4 +1,4 @@
-# xswarm-marketing PRD
+# xswarm-buzz PRD
 ## Context-Driven Guerrilla Marketing with Claude Code
 
 **Version:** 2.0
@@ -8,7 +8,7 @@
 
 ## 1. Overview
 
-**xswarm-marketing** wraps Claude Code SDK to create context-driven marketing automation in any project folder.
+**xswarm-buzz** wraps Claude Code SDK to create context-driven marketing automation in any project folder.
 
 ```
 Your Project/promotion/
@@ -20,14 +20,14 @@ Your Project/promotion/
 └── config/                # Auth, model preferences (gitignored)
 ```
 
-**Core principle:** CD to promotion folder → Run npx xswarm-marketing → AI uses context → Executes marketing
+**Core principle:** CD to promotion folder → Run npx xswarm-buzz → AI uses context → Executes marketing
 
 ---
 
 ## 2. Architecture
 
 ### Components
-- **xswarm-marketing**: npm wrapper, Standard I/O (JSONL), core skills, subagent orchestration
+- **xswarm-buzz**: npm wrapper, Standard I/O (JSONL), core skills, subagent orchestration
 - **Claude Code**: AI engine, skill execution, context reading
 - **Skills**: Modular capabilities (SKILL.md + scripts + resources)
 - **Subagents**: Delegate tasks to cheapest appropriate model
@@ -120,7 +120,7 @@ Skills requiring external APIs specify credentials in SKILL.md. **auth-setup** s
 ### Skill Lifecycle
 - **Create:** Use skill-creator (Anthropic built-in) or build manually
 - **Test:** Ask Claude questions matching description
-- **Share:** Contribute to github.com/chadananda/xswarm-marketing via PR
+- **Share:** Contribute to github.com/chadananda/xswarm-buzz via PR
 - **Fetch:** skill-fetcher downloads on-demand to .claude/skills/fetched/
 - **Update:** Check GitHub for newer versions, fetch updates
 

@@ -1,6 +1,6 @@
 # Skills Directory
 
-This directory contains the core marketing skills bundled with xswarm-marketing.
+This directory contains the core marketing skills bundled with xswarm-buzz.
 
 ## Structure
 
@@ -53,7 +53,7 @@ Detailed instructions for Claude on how to use this skill...
 Use the built-in skill-creator:
 
 ```bash
-xswarm-marketing
+xswarm-buzz
 > "Create a new skill called 'my-custom-skill'"
 ```
 
@@ -76,7 +76,7 @@ Fetched skills are stored in `.claude/skills/fetched/` (user's project).
 ## Contributing
 
 Create skills and share them via GitHub:
-- Repository: https://github.com/chadananda/xswarm-marketing
+- Repository: https://github.com/chadananda/xswarm-buzz
 - Add to: `skills/community/`
 - Submit PR with clear description
 

@@ -2,7 +2,7 @@
  * Machine Mode - JSONL Protocol
  *
  * Structured input/output for external orchestration.
- * Use `xswarm-marketing --json` to enable.
+ * Use `xswarm-buzz --json` to enable.
  *
  * Message Types:
  * - command: Execute an action
@@ -24,7 +24,7 @@ function emit(type, data) {
 }
 
 export async function runMachineMode() {
-  emit('status', { message: 'xswarm-marketing machine mode initialized' });
+  emit('status', { message: 'xswarm-buzz machine mode initialized' });
   emit('log', { level: 'info', message: 'JSONL protocol active' });
   emit('status', { message: 'Planning phase - full implementation coming soon' });
 

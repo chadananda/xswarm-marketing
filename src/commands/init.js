@@ -1,7 +1,7 @@
 /**
  * Init Command
  *
- * First-time setup for xswarm-marketing.
+ * First-time setup for xswarm-buzz.
  * Creates the promotion folder structure and context files.
  */
 
@@ -12,7 +12,7 @@ import inquirer from 'inquirer';
 import ora from 'ora';
 
 export async function runInit() {
-  console.log(chalk.cyan('\n🎯 xswarm-marketing initialization\n'));
+  console.log(chalk.cyan('\n🎯 xswarm-buzz initialization\n'));
   console.log(chalk.gray('This will set up your project for AI-driven guerilla marketing.\n'));
 
   // Check if already initialized
@@ -22,7 +22,7 @@ export async function runInit() {
       {
         type: 'confirm',
         name: 'overwrite',
-        message: 'xswarm-marketing files already exist. Overwrite?',
+        message: 'xswarm-buzz files already exist. Overwrite?',
         default: false,
       },
     ]);
@@ -67,7 +67,7 @@ export async function runInit() {
     console.log(chalk.cyan('📝 Next steps:'));
     console.log(chalk.gray('  1. Fill in context/*.md files with your product/market info'));
     console.log(chalk.gray('  2. Configure config/model-preferences.json'));
-    console.log(chalk.gray('  3. Run: xswarm-marketing\n'));
+    console.log(chalk.gray('  3. Run: xswarm-buzz\n'));
 
     console.log(chalk.yellow('⚠️  Note: Currently in planning phase'));
     console.log(chalk.gray('Full implementation coming in Phase 2.\n'));
@@ -233,7 +233,7 @@ GOOGLE_API_KEY=
 
 async function updateGitignore() {
   const gitignoreContent = `
-# xswarm-marketing sensitive data
+# xswarm-buzz sensitive data
 config/.env
 config/auth/
 audiences/prospects.json
@@ -244,7 +244,7 @@ interactions/
 
   try {
     const existing = await fs.readFile('.gitignore', 'utf-8');
-    if (!existing.includes('xswarm-marketing')) {
+    if (!existing.includes('xswarm-buzz')) {
       await fs.appendFile('.gitignore', gitignoreContent);
     }
   } catch {

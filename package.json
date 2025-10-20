@@ -1,5 +1,5 @@
 {
-  "name": "xswarm-marketing",
+  "name": "xswarm-buzz",
   "version": "0.1.0-alpha.1",
   "description": "AI-powered guerilla marketing automation for technical founders. Context-driven, cost-optimized, conversational. Team of One.",
   "keywords": [
@@ -17,11 +17,11 @@
   ],
   "homepage": "https://xswarm.ai",
   "bugs": {
-    "url": "https://github.com/chadananda/xswarm-marketing/issues"
+    "url": "https://github.com/chadananda/xswarm-buzz/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/chadananda/xswarm-marketing.git"
+    "url": "https://github.com/chadananda/xswarm-buzz.git"
   },
   "license": "MIT",
   "author": {
@@ -30,7 +30,7 @@
   },
   "type": "module",
   "bin": {
-    "xswarm-marketing": "./bin/cli.js"
+    "xswarm-buzz": "./bin/cli.js"
   },
   "main": "./src/index.js",
   "files": [
