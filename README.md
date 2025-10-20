@@ -1,15 +1,12 @@
 <div align="center">
 
-```
- __   __ _____ _    _  ___  ____  __  __
- \ \ / // ____| |  | |/ _ \|  _ \|  \/  |
-  \ V /| (___ | |  | | |_| | |_) | |\/| |
-   > <  \___ \| |/\| |  _  |  _ <| |  | |
-  / . \ ____) \  /\  / | | | |_) | |  | |
- /_/ \_\_____/ \/  \/|_| |_|____/|_|  |_|
+# 🎯 xSwarm Marketing
 
-         GUERILLA MARKETING TEAM
-    cd project/promotion/; npx xswarm-marketing
+### Guerilla Marketing Team
+
+```bash
+cd project/promotion/
+npx xswarm-marketing
 ```
 
 </div>
