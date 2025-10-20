@@ -1,25 +1,11 @@
 <div align="center">
 
-```
-                       SSSSSSSSSSSSSSS
-                     SS:::::::::::::::S
-                    S:::::SSSSSS::::::S
-                    S:::::S     SSSSSSS
-xxxxxxx      xxxxxxxS:::::S            wwwwwww           wwwww           wwwwwww  aaaaaaaaaaaaa   rrrrr   rrrrrrrrr      mmmmmmm    mmmmmmm
- x:::::x    x:::::x S:::::S             w:::::w         w:::::w         w:::::w   a::::::::::::a  r::::rrr:::::::::r   mm:::::::m  m:::::::mm
-  x:::::x  x:::::x   S::::SSSS           w:::::w       w:::::::w       w:::::w    aaaaaaaaa:::::a r:::::::::::::::::r m::::::::::mm::::::::::m
-   x:::::xx:::::x     SS::::::SSSSS       w:::::w     w:::::::::w     w:::::w              a::::a rr::::::rrrrr::::::rm::::::::::::::::::::::m
-    x::::::::::x        SSS::::::::SS      w:::::w   w:::::w:::::w   w:::::w        aaaaaaa:::::a  r:::::r     r:::::rm:::::mmm::::::mmm:::::m
-     x::::::::x            SSSSSS::::S      w:::::w w:::::w w:::::w w:::::w       aa::::::::::::a  r:::::r     rrrrrrrm::::m   m::::m   m::::m
-     x::::::::x                 S:::::S      w:::::w:::::w   w:::::w:::::w       a::::aaaa::::::a  r:::::r            m::::m   m::::m   m::::m
-    x::::::::::x                S:::::S       w:::::::::w     w:::::::::w       a::::a    a:::::a  r:::::r            m::::m   m::::m   m::::m
-   x:::::xx:::::x   SSSSSSS     S:::::S        w:::::::w       w:::::::w        a::::a    a:::::a  r:::::r            m::::m   m::::m   m::::m
-  x:::::x  x:::::x  S::::::SSSSSS:::::S         w:::::w         w:::::w         a:::::aaaa::::::a  r:::::r            m::::m   m::::m   m::::m
- x:::::x    x:::::x S:::::::::::::::SS           w:::w           w:::w           a::::::::::aa:::a r:::::r            m::::m   m::::m   m::::m
-xxxxxxx      xxxxxxx SSSSSSSSSSSSSSS              www             www             aaaaaaaaaa  aaaa rrrrrrr            mmmmmm   mmmmmm   mmmmmm
+<img src="planning/ascii-art-text.png" alt="xSwarm Marketing" width="600">
 
-                                          GUERILLA MARKETING TEAM
-                                     cd project/promotion/ && npx xswarm-marketing
+### Guerilla Marketing Team
+
+```bash
+cd project/promotion/ && npx xswarm-marketing
 ```
 
 </div>
