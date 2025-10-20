@@ -1,12 +1,14 @@
 <div align="center">
 
 ```
-═══════════════════════════════════════════════════════════
-                        xSwarm
-           G U E R I L L A   M A R K E T I N G   T E A M
-═══════════════════════════════════════════════════════════
+          ____
+__  _____/ ___|_      ____ _ _ __ _ __ ___
+\ \/ / __|___ \ \ /\ / / _` | '__| '_ ` _ \
+ >  <\__ \___/ \ V  V / (_| | |  | | | | | |
+/_/\_\___/____/ \_/\_/ \__,_|_|  |_| |_| |_|
 
-        cd project/promotion/; npx xswarm-marketing
+        GUERILLA MARKETING TEAM
+   cd project/promotion/; npx xswarm-marketing
 ```
 
 </div>
