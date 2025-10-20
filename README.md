@@ -1,8 +1,11 @@
 ```
-╦ ╦╔═╗╦ ╦╔═╗╦═╗╔╦╗  ╔╦╗╔═╗╦═╗╦╔═╔═╗╔╦╗╦╔╗╔╔═╗
-╔╩╦╝╚═╗║║║╠═╣╠╦╝║║║───║║║╠═╣╠╦╝╠╩╗║╣  ║ ║║║║║ ╦
-╩ ╚═╚═╝╚╩╝╩ ╩╩╚═╩ ╩  ╩ ╩╩ ╩╩╚═╩ ╩╚═╝ ╩ ╩╝╚╝╚═╝
-    GUERILLA MARKETING AUTOMATION • AI AGENTS • TEAM OF ONE
+          _____
+__  _____/ ___/      ______ _________ ___
+\ \/ / __|___ \ | /| / / __ `/ ___/ __ `__ \
+ >  <\__ \___/ / |/ |/ / /_/ / /  / / / / / /
+/_/\_\___/____/|__/|__/\__,_/_/  /_/ /_/ /_/
+
+        GUERILLA MARKETING TEAM
 ```
 
 # Ditch the Marketing Team. You ARE the Marketing Team.
@@ -63,15 +66,19 @@ $ npx xswarm-marketing
 🎯 Analyzing 47 prospects...
 🧠 Reading your context (product, voice, successful patterns)...
 ✨ Generating 15 personalized messages...
-📤 Ready to send (no templates, all fresh AI generation)
+📤 Ready to review (no templates, all fresh AI generation)
 
-> "Send them."
+> "Show me message 1"
 
-✅ Outreach complete.
-⏱️  Time spent: 4 minutes
+[AI shows generated message for review]
+
+> "Looks good. Approve all 15."
+
+✅ Messages approved and queued.
+⏱️  Time spent: 4 minutes (including your review)
 📊 You manually: would've taken 4 hours
 
-Go grab coffee. I got this.
+You stay in control. AI does the heavy lifting.
 ```
 
 **That's the whole interface.** Conversational. Natural. Fast.
@@ -247,6 +254,23 @@ This message:
 *Result: 43% acceptance rate. 2-3x better than templates.*
 
 **The difference?** AI reads context, analyzes the prospect, generates fresh. Every. Single. Time.
+
+### Human-in-the-Loop: You're Always in Control
+
+**Critical: AI suggests. You approve. Always.**
+
+xswarm-marketing is NOT an autonomous spam bot. It's your AI assistant that drafts messages for you.
+
+**The workflow:**
+1. AI generates personalized message suggestions
+2. You review each message (or batch review)
+3. You can edit, approve, or reject
+4. Nothing sends without your explicit approval
+5. AI learns from your edits and choices
+
+**You maintain full control.** The AI just makes the drafting 10x faster.
+
+Think of it like: AI is your copywriting intern. You're still the marketing director who reviews and approves everything before it goes out.
 
 ### Learning System: Gets Better Over Time
 
@@ -744,19 +768,24 @@ All prospect data, interactions, auth tokens stored locally. Never sent to any A
 
 ### "Can this get my LinkedIn account banned?"
 
+**Short answer: No, because YOU review and approve everything.**
+
+This isn't a spam bot. You're doing the marketing - AI just drafts faster.
+
 **Built-in safety:**
+- **Human approval required** - Nothing sends without your explicit review
 - Respects rate limits (15 connections/day default, configurable)
 - Human-like timing (randomized delays, not robotic)
 - Natural language (AI-generated, not templates)
-- Manual approval mode (review before sending)
+- Edit any message before sending
 
 **Your responsibility:**
+- Review messages before approving (you'll do this naturally)
 - Don't be spammy (trust the defaults)
-- Review messages in approval mode first
 - Provide good context (product, value prop)
 - Monitor acceptance rates (low rate = adjust strategy)
 
-Used responsibly, this is indistinguishable from manual marketing. LinkedIn sees: human-quality messages, reasonable volume, good engagement. No red flags.
+LinkedIn sees: You sending human-quality messages at reasonable volume with good engagement. Because that's exactly what you're doing - you're just using AI as your drafting assistant.
 
 ### "What if I want to build my own skills?"
 
