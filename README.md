@@ -8,6 +8,7 @@
      /_/\_\_|   \_/\_/ \__,_|_|  |_| |_| |_|
 
           GUERILLA MARKETING TEAM
+     cd project/promotion/; npx xswarm-marketing
 ```
 
 </div>
