@@ -1,11 +1,28 @@
-<p align="center">
-  <br/>
-  <h1>🎯 xSwarm Marketing</h1>
-  <h3>Guerilla Marketing Team</h3>
-  <br/>
-  <code>cd project/promotion/ && npx xswarm-marketing</code>
-  <br/><br/>
-</p>
+<div align="center">
+
+```
+                       SSSSSSSSSSSSSSS
+                     SS:::::::::::::::S
+                    S:::::SSSSSS::::::S
+                    S:::::S     SSSSSSS
+xxxxxxx      xxxxxxxS:::::S            wwwwwww           wwwww           wwwwwww  aaaaaaaaaaaaa   rrrrr   rrrrrrrrr      mmmmmmm    mmmmmmm
+ x:::::x    x:::::x S:::::S             w:::::w         w:::::w         w:::::w   a::::::::::::a  r::::rrr:::::::::r   mm:::::::m  m:::::::mm
+  x:::::x  x:::::x   S::::SSSS           w:::::w       w:::::::w       w:::::w    aaaaaaaaa:::::a r:::::::::::::::::r m::::::::::mm::::::::::m
+   x:::::xx:::::x     SS::::::SSSSS       w:::::w     w:::::::::w     w:::::w              a::::a rr::::::rrrrr::::::rm::::::::::::::::::::::m
+    x::::::::::x        SSS::::::::SS      w:::::w   w:::::w:::::w   w:::::w        aaaaaaa:::::a  r:::::r     r:::::rm:::::mmm::::::mmm:::::m
+     x::::::::x            SSSSSS::::S      w:::::w w:::::w w:::::w w:::::w       aa::::::::::::a  r:::::r     rrrrrrrm::::m   m::::m   m::::m
+     x::::::::x                 S:::::S      w:::::w:::::w   w:::::w:::::w       a::::aaaa::::::a  r:::::r            m::::m   m::::m   m::::m
+    x::::::::::x                S:::::S       w:::::::::w     w:::::::::w       a::::a    a:::::a  r:::::r            m::::m   m::::m   m::::m
+   x:::::xx:::::x   SSSSSSS     S:::::S        w:::::::w       w:::::::w        a::::a    a:::::a  r:::::r            m::::m   m::::m   m::::m
+  x:::::x  x:::::x  S::::::SSSSSS:::::S         w:::::w         w:::::w         a:::::aaaa::::::a  r:::::r            m::::m   m::::m   m::::m
+ x:::::x    x:::::x S:::::::::::::::SS           w:::w           w:::w           a::::::::::aa:::a r:::::r            m::::m   m::::m   m::::m
+xxxxxxx      xxxxxxx SSSSSSSSSSSSSSS              www             www             aaaaaaaaaa  aaaa rrrrrrr            mmmmmm   mmmmmm   mmmmmm
+
+                                          GUERILLA MARKETING TEAM
+                                     cd project/promotion/ && npx xswarm-marketing
+```
+
+</div>
 
 # Ditch the Marketing Team. You ARE the Marketing Team.
 
